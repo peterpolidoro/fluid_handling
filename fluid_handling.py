@@ -5,14 +5,14 @@ class FluidHandling(object):
     def __init__(self):
         self.dev = ArduinoDevice()
     def state1(self):
-        self.dev.setRelays(17)
+        self.dev.set_relays(17)
     def state2(self):
-        self.dev.setRelays(18)
+        self.dev.set_relays(18)
     def state3(self):
-        self.dev.setRelays(20)
+        self.dev.set_relays(20)
     def state4(self):
-        self.dev.setRelays(24)
+        self.dev.set_relays(24)
     def state5(self):
-        self.dev.setRelays(0)
+        self.dev.set_relays(0)
     def state6(self):
-        self.dev.setRelays(32)
+        self.dev.set_relays(32)
